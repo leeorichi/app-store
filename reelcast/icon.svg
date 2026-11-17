@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Squircle Base -->
+  <rect x="32" y="32" width="448" height="448" rx="108" fill="url(#bgGrad)" filter="url(#dropShadow)"/>
+
+  <!-- TV Screen Frame -->
+  <rect x="88" y="100" width="336" height="236" rx="28" fill="url(#screenGrad)" stroke="rgba(255,255,255,0.15)" stroke-width="4"/>
+
+  <!-- Play Reel Triangle with Glow -->
+  <path d="M 230 170 L 315 218 L 230 266 Z" fill="url(#glowGrad)"/>
+
+  <!-- Cast Waves Indicator (Bottom Left of TV) -->
+  <path d="M 120 290 A 24 24 0 0 1 144 314" stroke="#38BDF8" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M 120 272 A 42 42 0 0 1 162 314" stroke="#818CF8" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <circle cx="120" cy="314" r="5" fill="#38BDF8"/>
+
+  <!-- TV Stand -->
+  <rect x="236" y="336" width="40" height="34" rx="6" fill="#312E81"/>
+  <rect x="180" y="370" width="152" height="14" rx="7" fill="url(#glowGrad)"/>
+</svg>

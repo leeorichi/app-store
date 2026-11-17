@@ -1,0 +1,11 @@
+{
+  "versionCode": 2,
+  "versionName": "1.0.1",
+  "apkUrl": "https://leeorichi.github.io/app-store/tiyo2mp3/TiYo2mp3-v1.0.1.apk",
+  "downloadUrl": "https://leeorichi.github.io/app-store/tiyo2mp3/TiYo2mp3-latest.apk",
+  "changelog": "• Tăng tốc tải YouTube lên 1.5 - 2.5 MB/s (nhanh hơn 25 lần) nhờ cơ chế Concurrent HTTP Range Requests đa luồng\n• Sửa triệt để lỗi chia sẻ khi app chưa mở (Cold-start share bug)\n• Thêm tính năng Tải Lại Ghi Đè (Re-download) trong bảng chi tiết bản ghi, không sinh file trùng (1).mp3\n• Tự động quét dọn và loại bỏ các file trùng lặp và rác MediaStore\n• Tối ưu giao diện Theme và bảng điều khiển",
+  "forceUpdate": false,
+  "releaseDate": "2026-11-16",
+  "fileSize": "7.6 MB",
+  "minSdkVersion": 24
+}

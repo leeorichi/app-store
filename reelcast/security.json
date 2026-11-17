@@ -1,0 +1,10 @@
+{
+  "isMaintenance": false,
+  "isLocked": false,
+  "maintenanceTitle": "App Under Maintenance 🛠️",
+  "maintenanceMessage": "ReelCast is currently undergoing scheduled system maintenance to enhance streaming stability. Normal service will resume shortly. Please check back soon.",
+  "emergencyContact": "https://t.me/leeorichi",
+  "minAllowedVersionCode": 15,
+  "blockedDevices": [],
+  "updatedAt": "2026-11-17T19:40:00+07:00"
+}

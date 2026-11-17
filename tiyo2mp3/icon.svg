@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF2E93;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00F2FE;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Outer Vinyl Edge -->
+  <circle cx="54" cy="54" r="46" fill="#121216" stroke="url(#grad1)" stroke-width="3"/>
+  <!-- Grooves -->
+  <circle cx="54" cy="54" r="38" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+  <circle cx="54" cy="54" r="30" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Center Label -->
+  <circle cx="54" cy="54" r="18" fill="url(#grad1)"/>
+  <!-- Center Spindle -->
+  <circle cx="54" cy="54" r="6" fill="#000000" stroke="#FFFFFF" stroke-width="1.5"/>
+  <!-- Music Note Overlay -->
+  <path d="M64,36 L72,36 L72,50 C70.5,49.2 68.8,49 67,49 C63,49 60,52 60,56 C60,60 63,63 67,63 C71,63 74,60 74,56 L74,40 L64,40 Z" fill="#FFFFFF"/>
+</svg>

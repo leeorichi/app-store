@@ -1,0 +1,11 @@
+{
+  "versionCode": 18,
+  "versionName": "1.1.0",
+  "apkUrl": "https://leeorichi.github.io/app-store/reelcast/ReelCast-v1.1.0.apk",
+  "downloadUrl": "https://leeorichi.github.io/app-store/reelcast/ReelCast-latest.apk",
+  "changelog": "• Double-tap seek gestures: double-tap left half to rewind 10s, right half to fast-forward 10s with YouTube-style animated HUD overlays\n• Clean minimalist controls: automatically hides +10/-10 buttons when gestures are enabled, leaving a clean center Play/Pause toggle\n• Fixed Player Settings rotation layout: shortened to 'Auto' to prevent overflow and wrapping\n• Smart link validation: automatically checks if the existing video stream is active before regenerating from Facebook",
+  "forceUpdate": false,
+  "releaseDate": "2026-11-17",
+  "fileSize": "11.6 MB",
+  "minSdkVersion": 24
+}

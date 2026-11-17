@@ -1,0 +1,13 @@
+{
+  "versionCode": 3,
+  "versionName": "1.0.2",
+  "apkUrl": "https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-v1.0.2.apk",
+  "downloadUrl": "https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-latest.apk",
+  "macDownloadUrl": "https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-macOS-universal.zip",
+  "githubUrl": "https://github.com/leeorichi/sync-clipboard-app",
+  "changelog": "• Refined macOS app toolbar with native icon buttons (Send, Pin, Options)\n• Synchronized footer version typography across Web & macOS\n• Enhanced cross-device sync and dynamic version badge\n• Bumped to v1.0.2",
+  "forceUpdate": false,
+  "releaseDate": "2026-11-16",
+  "fileSize": "21 MB",
+  "minSdkVersion": 26
+}

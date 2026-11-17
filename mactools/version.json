@@ -1,0 +1,11 @@
+{
+  "versionCode": 111,
+  "versionName": "1.1.1",
+  "downloadUrl": "https://leeorichi.github.io/app-store/mactools/MacTools-latest.zip",
+  "macDownloadUrl": "https://leeorichi.github.io/app-store/mactools/MacTools-v1.1.1-macOS-universal.zip",
+  "changelog": "• Hỗ trợ tính năng Tự động Cập nhật trực tiếp 1 chạm (In-app 1-click Auto-Update)\n• Tối ưu giao diện Menu Bar và quản lý cập nhật tập trung\n• Nâng cấp hiệu năng dọn RAM và lịch sử Clipboard đa năng\n• Universal Binary hỗ trợ cả chip Apple Silicon (M1-M4) & Intel Macs",
+  "forceUpdate": false,
+  "releaseDate": "2026-11-16",
+  "fileSize": "1.0 MB",
+  "minOsVersion": "macOS 13.0+"
+}
