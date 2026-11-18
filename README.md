@@ -23,7 +23,7 @@ app-store/
 │   └── icon.svg                         # Vector Icon
 ├── sync-clipboard/                      # Project 2: Sync Clipboard (E2EE) (Android & macOS)
 │   ├── version.json                     # OTA Update API endpoint for Sync Clipboard
-│   ├── SyncClipboard-v1.0.2.apk         # Versioned APK
+│   ├── SyncClipboard-v1.0.3.apk         # Versioned APK
 │   ├── SyncClipboard-latest.apk         # Latest APK permanent link
 │   ├── SyncClipboard-macOS-universal.zip# macOS Universal App
 │   └── icon.svg                         # Vector Icon
@@ -35,7 +35,7 @@ app-store/
 │   └── icon.svg                         # Vector Icon
 └── tiyo2mp3/                            # Project 4: TiYo2mp3 (Android Media Downloader)
     ├── version.json                     # OTA Update API endpoint for TiYo2mp3
-    ├── TiYo2mp3-v1.0.1.apk              # Versioned APK
+    ├── TiYo2mp3-v1.0.2.apk              # Versioned APK
     ├── TiYo2mp3-latest.apk              # Latest APK permanent link
     └── icon.svg                         # Vector Icon
 ```
@@ -66,8 +66,8 @@ app-store/
 | App Name | Platform | Version | Showcase Link | Download |
 | :--- | :--- | :--- | :--- | :--- |
 | **ReelCast** | Android / TV | `v1.1.2` | [#reelcast](https://leeorichi.github.io/app-store/#reelcast) | [Tải APK](https://leeorichi.github.io/app-store/reelcast/ReelCast-latest.apk) |
-| **TiYo2mp3** | Android | `v1.0.1` | [#tiyo2mp3](https://leeorichi.github.io/app-store/#tiyo2mp3) | [Tải APK](https://leeorichi.github.io/app-store/tiyo2mp3/TiYo2mp3-latest.apk) |
-| **Sync Clipboard** | Android / macOS / Web | `v1.0.2` | [#sync-clipboard](https://leeorichi.github.io/app-store/#sync-clipboard) | [Tải APK](https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-latest.apk) • [Tải macOS](https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-macOS-universal.zip) |
+| **TiYo2mp3** | Android | `v1.0.2` | [#tiyo2mp3](https://leeorichi.github.io/app-store/#tiyo2mp3) | [Tải APK](https://leeorichi.github.io/app-store/tiyo2mp3/TiYo2mp3-latest.apk) |
+| **Sync Clipboard** | Android / macOS / Web | `v1.0.3` | [#sync-clipboard](https://leeorichi.github.io/app-store/#sync-clipboard) | [Tải APK](https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-latest.apk) • [Tải macOS](https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-macOS-universal.zip) |
 | **MacTools** | macOS Universal | `v1.1.1` | [#mactools](https://leeorichi.github.io/app-store/#mactools) | [Tải macOS ZIP](https://leeorichi.github.io/app-store/mactools/MacTools-latest.zip) |
 
 ---

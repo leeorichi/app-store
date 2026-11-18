@@ -1,13 +1,13 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.2",
-  "apkUrl": "https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-v1.0.2.apk",
+  "versionCode": 4,
+  "versionName": "1.0.3",
+  "apkUrl": "https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-v1.0.3.apk",
   "downloadUrl": "https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-latest.apk",
   "macDownloadUrl": "https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-macOS-universal.zip",
   "githubUrl": "https://github.com/leeorichi/sync-clipboard-app",
-  "changelog": "• Refined macOS app toolbar with native icon buttons (Send, Pin, Options)\n• Synchronized footer version typography across Web & macOS\n• Enhanced cross-device sync and dynamic version badge\n• Bumped to v1.0.2",
+  "changelog": "• 3-Launch Offline Grace Policy & Mandatory Update: Allows up to 3 offline launches when update or maintenance servers are unreachable; strictly enforces an unbypassable update dialog on the 4th launch.\n• Unified Startup Security Check: Automatically validates maintenance mode, lock status, and minimum allowed version at launch.\n• 100% English UI consistency across all dialogs, notifications, and update prompts.\n• Bumped to v1.0.3 across Android, macOS & Web platforms.",
   "forceUpdate": false,
-  "releaseDate": "2026-11-16",
+  "releaseDate": "2026-11-18",
   "fileSize": "21 MB",
   "minSdkVersion": 26
 }

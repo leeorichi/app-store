@@ -1,11 +1,11 @@
 {
-  "versionCode": 2,
-  "versionName": "1.0.1",
-  "apkUrl": "https://leeorichi.github.io/app-store/tiyo2mp3/TiYo2mp3-v1.0.1.apk",
+  "versionCode": 3,
+  "versionName": "1.0.2",
+  "apkUrl": "https://leeorichi.github.io/app-store/tiyo2mp3/TiYo2mp3-v1.0.2.apk",
   "downloadUrl": "https://leeorichi.github.io/app-store/tiyo2mp3/TiYo2mp3-latest.apk",
-  "changelog": "• Tăng tốc tải YouTube lên 1.5 - 2.5 MB/s (nhanh hơn 25 lần) nhờ cơ chế Concurrent HTTP Range Requests đa luồng\n• Sửa triệt để lỗi chia sẻ khi app chưa mở (Cold-start share bug)\n• Thêm tính năng Tải Lại Ghi Đè (Re-download) trong bảng chi tiết bản ghi, không sinh file trùng (1).mp3\n• Tự động quét dọn và loại bỏ các file trùng lặp và rác MediaStore\n• Tối ưu giao diện Theme và bảng điều khiển",
+  "changelog": "• 3-Launch Offline Grace Policy & Mandatory Update: Allows up to 3 offline launches if update or maintenance servers are unreachable; strictly enforces an unbypassable update dialog on the 4th launch.\n• Unified Startup Security Check: Automatically checks system maintenance status and minimum allowed versions at launch.\n• 100% English UI consistency across all dialogs, notifications, and update prompts.",
   "forceUpdate": false,
-  "releaseDate": "2026-11-16",
+  "releaseDate": "2026-11-18",
   "fileSize": "7.6 MB",
   "minSdkVersion": 24
 }

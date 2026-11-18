@@ -1,0 +1,10 @@
+{
+  "isMaintenance": false,
+  "isLocked": false,
+  "maintenanceTitle": "App Under Maintenance 🛠️",
+  "maintenanceMessage": "TiYo2mp3 is currently undergoing scheduled system maintenance. Normal service will resume shortly. Please check back soon.",
+  "emergencyContact": "https://t.me/leeorichi",
+  "minAllowedVersionCode": 1,
+  "blockedDevices": [],
+  "updatedAt": "2026-11-18T18:15:00+07:00"
+}
