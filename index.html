@@ -73,7 +73,7 @@
           <div class="app-title-group">
             <div class="app-name-row">
               <h2 class="app-name">ReelCast</h2>
-              <span class="version-tag">v1.1.1</span>
+              <span class="version-tag">v1.1.2</span>
             </div>
             <p class="app-category">
               <span class="i18n-en">Video & Cast Tools • Android TV</span>
@@ -124,12 +124,12 @@
 
         <!-- Action Buttons -->
         <div class="card-actions">
-          <a href="reelcast/ReelCast-v1.1.1.apk" class="btn btn-primary" download>
+          <a href="reelcast/ReelCast-v1.1.2.apk" class="btn btn-primary" download>
             <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
             </svg>
-            <span class="i18n-en">Download APK (v1.1.1)</span>
-            <span class="i18n-vi">Tải APK (v1.1.1)</span>
+            <span class="i18n-en">Download APK (v1.1.2)</span>
+            <span class="i18n-vi">Tải APK (v1.1.2)</span>
           </a>
 
           <button class="btn btn-secondary" onclick="toggleQR('qr-reelcast')">
@@ -180,7 +180,22 @@
           </summary>
           <div class="changelog-content">
             <div class="release-entry">
-              <span class="release-ver">v1.1.1 (Latest)</span>
+              <span class="release-ver">v1.1.2 (Latest)</span>
+              <ul class="i18n-en">
+                <li>Fixed TV Cast 1x and 2x streaming bottlenecks: Prioritized unthrottled direct CDN video streams (hd_src_no_ratelimit / sd_src_no_ratelimit) over rate-limited Facebook endpoints, eliminating buffering and network starvation on Chromecast and Smart TVs.</li>
+                <li>Direct Cast initialization speed: Passes target playback rate directly into Cast MediaLoadOptions for instant high-speed rendering with smooth dynamic speed sync.</li>
+                <li>3-Launch Offline Grace Policy: Allows up to 3 offline launches if update/maintenance servers are unreachable; strictly enforces mandatory force update on the 4th launch to safeguard security.</li>
+                <li>Full English localization compliance across all dialogs, notifications, and OTA update prompts.</li>
+              </ul>
+              <ul class="i18n-vi">
+                <li>Khắc phục triệt để hiện tượng nghẽn mạng khi Cast TV ở tốc độ 1x và 2x: Ưu tiên luồng trực tiếp không giới hạn băng thông (hd_src_no_ratelimit / sd_src_no_ratelimit), loại bỏ hoàn toàn bóp băng thông từ Facebook CDN trên Chromecast và TV thông minh.</li>
+                <li>Khởi tạo tốc độ Cast tức thì: Đưa trực tiếp thiết lập tốc độ vào MediaLoadOptions của Google Cast kết hợp đồng bộ động liên tục.</li>
+                <li>Chính sách dự phòng ngoại tuyến 3 lần: Cho phép mở tối đa 3 lần khi không kết nối được server update/bảo trì; đến lần thứ 4 sẽ bắt buộc cập nhật để đảm bảo an toàn.</li>
+                <li>Chuẩn hóa 100% ngôn ngữ tiếng Anh cho toàn bộ giao diện, thông báo và hộp thoại cập nhật OTA.</li>
+              </ul>
+            </div>
+            <div class="release-entry">
+              <span class="release-ver">v1.1.1</span>
               <ul class="i18n-en">
                 <li>Aggressive 2.0x playback buffer engine: Expanded forward buffer up to 180s and back-buffer to 60s, completely eliminating stutter and buffering at 2x high-speed playback.</li>
                 <li>Persistent 500MB LRU Disk Cache: Locally stores video chunks for instant rewinding and continuous looping with zero network latency.</li>

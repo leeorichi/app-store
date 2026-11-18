@@ -18,7 +18,7 @@ app-store/
 ├── style.css                            # Modern Glassmorphic Dark UI
 ├── reelcast/                            # Project 1: ReelCast (Android & Android TV)
 │   ├── version.json                     # OTA Update API endpoint for ReelCast
-│   ├── ReelCast-v1.1.1.apk              # Versioned APK
+│   ├── ReelCast-v1.1.2.apk              # Versioned APK
 │   ├── ReelCast-latest.apk              # Latest APK permanent link
 │   └── icon.svg                         # Vector Icon
 ├── sync-clipboard/                      # Project 2: Sync Clipboard (E2EE) (Android & macOS)
@@ -65,7 +65,7 @@ app-store/
 
 | App Name | Platform | Version | Showcase Link | Download |
 | :--- | :--- | :--- | :--- | :--- |
-| **ReelCast** | Android / TV | `v1.1.0` | [#reelcast](https://leeorichi.github.io/app-store/#reelcast) | [Tải APK](https://leeorichi.github.io/app-store/reelcast/ReelCast-latest.apk) |
+| **ReelCast** | Android / TV | `v1.1.2` | [#reelcast](https://leeorichi.github.io/app-store/#reelcast) | [Tải APK](https://leeorichi.github.io/app-store/reelcast/ReelCast-latest.apk) |
 | **TiYo2mp3** | Android | `v1.0.1` | [#tiyo2mp3](https://leeorichi.github.io/app-store/#tiyo2mp3) | [Tải APK](https://leeorichi.github.io/app-store/tiyo2mp3/TiYo2mp3-latest.apk) |
 | **Sync Clipboard** | Android / macOS / Web | `v1.0.2` | [#sync-clipboard](https://leeorichi.github.io/app-store/#sync-clipboard) | [Tải APK](https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-latest.apk) • [Tải macOS](https://leeorichi.github.io/app-store/sync-clipboard/SyncClipboard-macOS-universal.zip) |
 | **MacTools** | macOS Universal | `v1.1.1` | [#mactools](https://leeorichi.github.io/app-store/#mactools) | [Tải macOS ZIP](https://leeorichi.github.io/app-store/mactools/MacTools-latest.zip) |

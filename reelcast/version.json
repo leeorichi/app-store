@@ -1,9 +1,9 @@
 {
-  "versionCode": 19,
-  "versionName": "1.1.1",
-  "apkUrl": "https://leeorichi.github.io/app-store/reelcast/ReelCast-v1.1.1.apk",
+  "versionCode": 20,
+  "versionName": "1.1.2",
+  "apkUrl": "https://leeorichi.github.io/app-store/reelcast/ReelCast-v1.1.2.apk",
   "downloadUrl": "https://leeorichi.github.io/app-store/reelcast/ReelCast-latest.apk",
-  "changelog": "• Tối ưu tốc độ 2.0x & Bộ đệm trước 180s: Mở rộng buffer tải trước lên đến 180s cùng 60s back-buffer, loại bỏ hoàn toàn hiện tượng nghẽn/khựng khi xem ở tốc độ cao (2x)\n• Bộ nhớ đệm ổ đĩa siêu tốc (500MB LRU Disk Cache): Lưu tạm dữ liệu video vào bộ nhớ flash giúp tua và xem lại mượt mà tức thì\n• Nạp dữ liệu mượt mà liên tục (64KB chunks): Thay thế chu kỳ tải 1MB bằng 64KB giúp bộ đệm luôn được lấp đầy liên tục\n• Tối ưu chuyển tốc độ khi Cast TV: Tự động đệm ổn định trước khi tăng tốc độ trên màn hình lớn, loại bỏ tình trạng lag/dừng hình trên TV",
+  "changelog": "• Unthrottled Cast Streaming: Prioritizes unthrottled video streams (_no_ratelimit) directly, completely eliminating buffer bottlenecks and stuttering at 1x and 2x speeds on Android TV and Chromecast.\n• Direct Cast Playback Rate: Configures Google Cast receiver pipeline directly at the target playback speed from frame 0, preventing audio/video decoder stalls.\n• Offline Launch Policy & Mandatory Update: Allows up to 3 offline launches if update or maintenance servers are unreachable; strictly enforces an unbypassable update dialog on the 4th launch.\n• 100% English UI consistency across all dialogs, notifications, and update feeds.",
   "forceUpdate": false,
   "releaseDate": "2026-11-18",
   "fileSize": "11.6 MB",
