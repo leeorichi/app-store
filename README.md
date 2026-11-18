@@ -18,7 +18,7 @@ app-store/
 ├── style.css                            # Modern Glassmorphic Dark UI
 ├── reelcast/                            # Project 1: ReelCast (Android & Android TV)
 │   ├── version.json                     # OTA Update API endpoint for ReelCast
-│   ├── ReelCast-v1.1.0.apk              # Versioned APK
+│   ├── ReelCast-v1.1.1.apk              # Versioned APK
 │   ├── ReelCast-latest.apk              # Latest APK permanent link
 │   └── icon.svg                         # Vector Icon
 ├── sync-clipboard/                      # Project 2: Sync Clipboard (E2EE) (Android & macOS)

@@ -1,11 +1,11 @@
 {
-  "versionCode": 18,
-  "versionName": "1.1.0",
-  "apkUrl": "https://leeorichi.github.io/app-store/reelcast/ReelCast-v1.1.0.apk",
+  "versionCode": 19,
+  "versionName": "1.1.1",
+  "apkUrl": "https://leeorichi.github.io/app-store/reelcast/ReelCast-v1.1.1.apk",
   "downloadUrl": "https://leeorichi.github.io/app-store/reelcast/ReelCast-latest.apk",
-  "changelog": "• Double-tap seek gestures: double-tap left half to rewind 10s, right half to fast-forward 10s with YouTube-style animated HUD overlays\n• Clean minimalist controls: automatically hides +10/-10 buttons when gestures are enabled, leaving a clean center Play/Pause toggle\n• Fixed Player Settings rotation layout: shortened to 'Auto' to prevent overflow and wrapping\n• Smart link validation: automatically checks if the existing video stream is active before regenerating from Facebook",
+  "changelog": "• Tối ưu tốc độ 2.0x & Bộ đệm trước 180s: Mở rộng buffer tải trước lên đến 180s cùng 60s back-buffer, loại bỏ hoàn toàn hiện tượng nghẽn/khựng khi xem ở tốc độ cao (2x)\n• Bộ nhớ đệm ổ đĩa siêu tốc (500MB LRU Disk Cache): Lưu tạm dữ liệu video vào bộ nhớ flash giúp tua và xem lại mượt mà tức thì\n• Nạp dữ liệu mượt mà liên tục (64KB chunks): Thay thế chu kỳ tải 1MB bằng 64KB giúp bộ đệm luôn được lấp đầy liên tục\n• Tối ưu chuyển tốc độ khi Cast TV: Tự động đệm ổn định trước khi tăng tốc độ trên màn hình lớn, loại bỏ tình trạng lag/dừng hình trên TV",
   "forceUpdate": false,
-  "releaseDate": "2026-11-17",
+  "releaseDate": "2026-11-18",
   "fileSize": "11.6 MB",
   "minSdkVersion": 24
 }

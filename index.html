@@ -73,7 +73,7 @@
           <div class="app-title-group">
             <div class="app-name-row">
               <h2 class="app-name">ReelCast</h2>
-              <span class="version-tag">v1.1.0</span>
+              <span class="version-tag">v1.1.1</span>
             </div>
             <p class="app-category">
               <span class="i18n-en">Video & Cast Tools • Android TV</span>
@@ -118,18 +118,18 @@
               <span class="i18n-en">Release Date</span>
               <span class="i18n-vi">Ngày phát hành</span>
             </span>
-            <span class="meta-value">17/11/2026</span>
+            <span class="meta-value">18/11/2026</span>
           </div>
         </div>
 
         <!-- Action Buttons -->
         <div class="card-actions">
-          <a href="reelcast/ReelCast-v1.1.0.apk" class="btn btn-primary" download>
+          <a href="reelcast/ReelCast-v1.1.1.apk" class="btn btn-primary" download>
             <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
             </svg>
-            <span class="i18n-en">Download APK (v1.1.0)</span>
-            <span class="i18n-vi">Tải APK (v1.1.0)</span>
+            <span class="i18n-en">Download APK (v1.1.1)</span>
+            <span class="i18n-vi">Tải APK (v1.1.1)</span>
           </a>
 
           <button class="btn btn-secondary" onclick="toggleQR('qr-reelcast')">
@@ -180,7 +180,22 @@
           </summary>
           <div class="changelog-content">
             <div class="release-entry">
-              <span class="release-ver">v1.1.0 (Latest)</span>
+              <span class="release-ver">v1.1.1 (Latest)</span>
+              <ul class="i18n-en">
+                <li>Aggressive 2.0x playback buffer engine: Expanded forward buffer up to 180s and back-buffer to 60s, completely eliminating stutter and buffering at 2x high-speed playback.</li>
+                <li>Persistent 500MB LRU Disk Cache: Locally stores video chunks for instant rewinding and continuous looping with zero network latency.</li>
+                <li>Smart 64KB chunk-loading pipeline: Continuously refills player buffer in smooth micro-batches, preventing sudden network stalls.</li>
+                <li>TV Cast speed ramp-up optimization: Automatically pre-buffers for 2.5s before kicking into 2.0x on the big screen, preventing TV receiver buffer starvation.</li>
+              </ul>
+              <ul class="i18n-vi">
+                <li>Bộ đệm tải trước siêu tốc 180s cho tốc độ 2.0x: Mở rộng buffer phía trước lên tới 180s cùng 60s buffer ngược, triệt tiêu hoàn toàn hiện tượng nghẽn hay khựng hình khi xem video ở tốc độ cao (2x).</li>
+                <li>Bộ nhớ đệm ổ đĩa 500MB (LRU Disk Cache): Lưu tạm các phân đoạn video vào bộ nhớ trong, giúp tua lại và lặp lại tức thì với tốc độ đọc cực đại.</li>
+                <li>Kiểm tra bộ đệm liên tục theo khối 64KB: Thay thế chu kỳ tải 1MB bằng 64KB, giữ dòng dữ liệu luôn được lấp đầy mượt mà.</li>
+                <li>Tối ưu chuyển tốc độ khi Cast TV: Tự động đệm ổn định 2.5s trước khi kích hoạt tốc độ 2.0x trên màn hình lớn, loại bỏ hiện tượng TV receiver bị nghẽn giật.</li>
+              </ul>
+            </div>
+            <div class="release-entry">
+              <span class="release-ver">v1.1.0</span>
               <ul class="i18n-en">
                 <li>Double-tap seek gestures: double-tap left half to rewind 10s, right half to fast-forward 10s with YouTube-style animated ripples and multi-tap accumulation.</li>
                 <li>Minimalist player controls: automatically hides +10/-10 buttons when gestures are active, keeping a clean central Play/Pause toggle.</li>
